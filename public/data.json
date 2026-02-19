@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Minimalist Leather Watch",
+    "price": 85.00,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+    "description": "A sleek, timeless timepiece with a genuine tan leather strap.",
+    "rating": 4.5,
+    "stock": 12
+  },
+  {
+    "id": 2,
+    "title": "Wireless Noise-Cancelling Headphones",
+    "price": 299.99,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+    "description": "Immersive sound quality with up to 30 hours of battery life.",
+    "rating": 4.8,
+    "stock": 5
+  },
+  {
+    "id": 3,
+    "title": "Ceramic Matte Coffee Mug",
+    "price": 18.50,
+    "category": "Home & Kitchen",
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d",
+    "description": "Hand-pressed ceramic mug with a soft-touch matte finish.",
+    "rating": 4.2,
+    "stock": 25
+  },
+  {
+    "id": 4,
+    "title": "Natural Soy Wax Candle",
+    "price": 22.00,
+    "category": "Home & Kitchen",
+    "image": "https://images.unsplash.com/photo-1603006905003-be475563bc59",
+    "description": "Eucalyptus and Lavender scented candle for ultimate relaxation.",
+    "rating": 4.6,
+    "stock": 18
+  },
+  {
+    "id": 5,
+    "title": "Ergonomic Mechanical Keyboard",
+    "price": 145.00,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae",
+    "description": "Tactile switches and RGB backlighting for productivity or gaming.",
+    "rating": 4.9,
+    "stock": 8
+  },
+  {
+    "id": 6,
+    "title": "Eco-Friendly Yoga Mat",
+    "price": 55.00,
+    "category": "Fitness",
+    "image": "https://images.unsplash.com/photo-1592432676556-269382172f8b",
+    "description": "Non-slip surface made from recycled biodegradable materials.",
+    "rating": 4.4,
+    "stock": 15
+  },
+  {
+    "id": 7,
+    "title": "Classic Denim Jacket",
+    "price": 75.00,
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1527010154944-f2241763d806",
+    "description": "A versatile mid-wash denim jacket with a relaxed fit.",
+    "rating": 4.3,
+    "stock": 10
+  },
+  {
+    "id": 8,
+    "title": "Smart Fitness Tracker",
+    "price": 120.00,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6",
+    "description": "Monitor your heart rate, steps, and sleep patterns effortlessly.",
+    "rating": 4.7,
+    "stock": 22
+  },
+  {
+    "id": 9,
+    "title": "Canvas Travel Backpack",
+    "price": 60.00,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+    "description": "Durable canvas bag with multiple compartments for short trips.",
+    "rating": 4.5,
+    "stock": 7
+  },
+  {
+    "id": 10,
+    "title": "Stainless Steel Water Bottle",
+    "price": 32.00,
+    "category": "Fitness",
+    "image": "https://images.unsplash.com/photo-1602143393494-144e83f29517",
+    "description": "Insulated bottle that keeps drinks cold for up to 24 hours.",
+    "rating": 4.8,
+    "stock": 30
+  },
+  {
+    "id": 11,
+    "title": "Premium Espresso Beans",
+    "price": 24.99,
+    "category": "Home & Kitchen",
+    "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e",
+    "description": "Fair-trade dark roast coffee beans with notes of dark chocolate.",
+    "rating": 4.9,
+    "stock": 40
+  },
+  {
+    "id": 12,
+    "title": "Lightweight Running Shoes",
+    "price": 110.00,
+    "category": "Fitness",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    "description": "Breathable mesh upper with superior cushioning for long runs.",
+    "rating": 4.6,
+    "stock": 14
+  }
+]
