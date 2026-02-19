@@ -9,8 +9,8 @@ const ItemsSection = () => {
     return (
         <div>
             <Container>
-                <div className='mt-30 '>
-                    data
+                <div className=' grid grid-cols-4 gap-5 '>
+    
                     {
                         data.map(product=> <ItemsCard key={product?.id} product={product}/>)
                     }
