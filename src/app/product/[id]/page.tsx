@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import data from '../../../../public/data.json'
-import { notFound } from 'next/navigation';
 import { TProduct } from '@/Types/Product/Product';
 import Container from '@/Components/Shared/Container';
 import ItemNotFound from '@/Components/Errors/ItemNotFound';
@@ -12,7 +11,7 @@ export  default async function ProductDetails({ params }: {params: Promise<{ id:
     const products: TProduct [] = data
 
     const product = products.find(p=> p.id === Number(id))
-    console.log(product)
+
     if (!product) return <ItemNotFound/>;
 
   return (
