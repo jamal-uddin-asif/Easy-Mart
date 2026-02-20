@@ -29,9 +29,6 @@ const ItemsSection = () => {
   }, [category, sortPrice]);
   
   
-  const [data, setData] = useState(filteredAndSortedData)
-  
-
 
 
   return (
@@ -64,7 +61,7 @@ const ItemsSection = () => {
           </div>
         </div>
         <div className=" grid grid-cols-1 md:grid-cols-3 p-2 md:p-0 lg:grid-cols-4 gap-5 ">
-          {data.map((product) => (
+          {filteredAndSortedData.map((product) => (
             <ItemsCard key={product?.id} product={product} />
           ))}
         </div>

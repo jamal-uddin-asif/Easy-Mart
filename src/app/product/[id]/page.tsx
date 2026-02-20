@@ -4,6 +4,7 @@ import data from '../../../../public/data.json'
 import { notFound } from 'next/navigation';
 import { TProduct } from '@/Types/Product/Product';
 import Container from '@/Components/Shared/Container';
+import ItemNotFound from '@/Components/Errors/ItemNotFound';
 
 export  default async function ProductDetails({ params }: {params: Promise<{ id: string }>}) {
 
@@ -12,7 +13,7 @@ export  default async function ProductDetails({ params }: {params: Promise<{ id:
 
     const product = products.find(p=> p.id === Number(id))
     console.log(product)
-    if (!product) notFound();
+    if (!product) return <ItemNotFound/>;
 
   return (
     <div className="mt-20 min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
