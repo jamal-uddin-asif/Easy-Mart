@@ -5,17 +5,17 @@ import { notFound } from 'next/navigation';
 import { TProduct } from '@/Types/Product/Product';
 import Container from '@/Components/Shared/Container';
 
-export  default async function ProductDetails({ params}) {
+export  default async function ProductDetails({ params }: {params: Promise<{ id: string }>}) {
 
     const {id} = await params
     const products: TProduct [] = data
 
-    const product = products.find(p=> p.id == id)
-console.log(product)
-  if (!product) notFound();
+    const product = products.find(p=> p.id === Number(id))
+    console.log(product)
+    if (!product) notFound();
 
   return (
-    <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
+    <div className="mt-20 min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
         <Container>
       <div className="">
       
@@ -80,14 +80,6 @@ console.log(product)
             </div>
 
 
-            <div className="mt-10 flex flex-col sm:flex-row gap-4">
-              <button className="flex-1 bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-700 transition-colors shadow-lg shadow-blue-200 active:scale-[0.98]">
-                Add to Cart
-              </button>
-              <button className="flex-1 bg-slate-900 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-800 transition-colors active:scale-[0.98]">
-                Buy Now
-              </button>
-            </div>
           </div>
         </div>
       </div>

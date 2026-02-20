@@ -1,17 +1,8 @@
+import { TProduct } from '@/Types/Product/Product';
 import Image from 'next/image';
 import Link from 'next/link';
-interface TProduct {
-  id: number;
-  title: string;
-  price: number;
-  category: string;
-  image: string;
-  description: string;
-  rating: number;
-  stock: number;
-}
 
-export default function ItemsCard({ product }) {
+export default function ItemsCard({ product }: {product: TProduct}) {
   return (
     <div className="group relative flex flex-col overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm transition-all hover:shadow-md">
       {/* Image Container */}
